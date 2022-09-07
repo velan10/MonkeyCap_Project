@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.042074">
+<testcase classname="Quotes feature testing" name="_2" time="14.042074">
+<system-out><![CDATA[Given User landed into the Application......................................passed
+When User inputs the Registration number of the vehicle "TN-05-AD-0993".....passed
+When User click on Get Quotes button........................................passed
+Then User lands in Choose your vehicle screen...............................passed
+When User edits the expiry date to plus 5 days..............................passed
+When User click on PROCEED button...........................................passed
+When User chooses "No" as Claimed Status....................................passed
+When User chooses "No" as Ownership change Status...........................passed
+When User chooses "20%" in No Claim Bonus dropdown..........................passed
+When User click on SUBMIT button............................................passed
+Then User lands in Quotes page successfully.................................passed
+And User validates results Quotes are displayed.............................passed
+]]></system-out>
+</testcase>
+</testsuite>
