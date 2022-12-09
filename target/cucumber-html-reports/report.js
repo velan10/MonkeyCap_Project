@@ -187,8 +187,9 @@ formatter.match({
   "location": "Homepage.user_landed_into_the_Application()"
 });
 formatter.result({
-  "duration": 161097200,
-  "status": "passed"
+  "duration": 107232000,
+  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.Monkey_Cap.stepDefinitions.Homepage.user_landed_into_the_Application(Homepage.java:17)\r\n\tat ✽.Given User landed into the Application(src/test/java/com/Monkey_Cap/features/TestCases.feature:6)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -200,22 +201,19 @@ formatter.match({
   "location": "Homepage.user_inputs_the_Registration_number_of_the_vehicle(String)"
 });
 formatter.result({
-  "duration": 235933300,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "Homepage.user_click_on_Get_Quotes_button()"
 });
 formatter.result({
-  "duration": 179153100,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "Vehicle_Details.user_lands_in_Choose_your_vehicle_screen()"
 });
 formatter.result({
-  "duration": 369650600,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -227,15 +225,13 @@ formatter.match({
   "location": "Vehicle_Details.user_edits_the_expiry_date_to_plus_days(int)"
 });
 formatter.result({
-  "duration": 1304715300,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "Vehicle_Details.user_click_on_PROCEED_button()"
 });
 formatter.result({
-  "duration": 266312200,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -247,8 +243,7 @@ formatter.match({
   "location": "StatusOption.user_chooses_as_Claimed_Status(String)"
 });
 formatter.result({
-  "duration": 113627200,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -260,8 +255,7 @@ formatter.match({
   "location": "StatusOption.user_chooses_as_Ownership_change_Status(String)"
 });
 formatter.result({
-  "duration": 131478900,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -273,28 +267,24 @@ formatter.match({
   "location": "StatusOption.user_chooses_in_No_Claim_Bonus_dropdown(String)"
 });
 formatter.result({
-  "duration": 843287300,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "StatusOption.user_click_on_SUBMIT_button()"
 });
 formatter.result({
-  "duration": 354135700,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "Quotes.user_lands_in_Quotes_page_successfully()"
 });
 formatter.result({
-  "duration": 3861389900,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "Quotes.user_validates_results_Quotes_are_displayed()"
 });
 formatter.result({
-  "duration": 6221293700,
-  "status": "passed"
+  "status": "skipped"
 });
 });

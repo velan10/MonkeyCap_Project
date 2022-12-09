@@ -17,6 +17,10 @@ public class Homepage extends Baseclass{
 		Assert.assertTrue(Baseclass.elementIsDisplayed(homePage.carSection()));
 		test = Baseclass.extent.createTest("Test One").info("User landed into the Application");
 	}
+	
+	
+	
+	
 
 	@When("^User inputs the Registration number of the vehicle \"([^\"]*)\"$")
 	public void user_inputs_the_Registration_number_of_the_vehicle(String arg1) throws Throwable {

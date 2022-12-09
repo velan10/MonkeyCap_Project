@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.042074">
-<testcase classname="Quotes feature testing" name="_2" time="14.042074">
-<system-out><![CDATA[Given User landed into the Application......................................passed
-When User inputs the Registration number of the vehicle "TN-05-AD-0993".....passed
-When User click on Get Quotes button........................................passed
-Then User lands in Choose your vehicle screen...............................passed
-When User edits the expiry date to plus 5 days..............................passed
-When User click on PROCEED button...........................................passed
-When User chooses "No" as Claimed Status....................................passed
-When User chooses "No" as Ownership change Status...........................passed
-When User chooses "20%" in No Claim Bonus dropdown..........................passed
-When User click on SUBMIT button............................................passed
-Then User lands in Quotes page successfully.................................passed
-And User validates results Quotes are displayed.............................passed
-]]></system-out>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.107232">
+<testcase classname="Quotes feature testing" name="_2" time="0.107232">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:87)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:42)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:53)&#13;&#10;&#9;at com.Monkey_Cap.stepDefinitions.Homepage.user_landed_into_the_Application(Homepage.java:17)&#13;&#10;&#9;at ✽.Given User landed into the Application(src/test/java/com/Monkey_Cap/features/TestCases.feature:6)&#13;&#10;"><![CDATA[Given User landed into the Application......................................failed
+When User inputs the Registration number of the vehicle "TN-05-AD-0993".....skipped
+When User click on Get Quotes button........................................skipped
+Then User lands in Choose your vehicle screen...............................skipped
+When User edits the expiry date to plus 5 days..............................skipped
+When User click on PROCEED button...........................................skipped
+When User chooses "No" as Claimed Status....................................skipped
+When User chooses "No" as Ownership change Status...........................skipped
+When User chooses "20%" in No Claim Bonus dropdown..........................skipped
+When User click on SUBMIT button............................................skipped
+Then User lands in Quotes page successfully.................................skipped
+And User validates results Quotes are displayed.............................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.Monkey_Cap.stepDefinitions.Homepage.user_landed_into_the_Application(Homepage.java:17)
+	at ✽.Given User landed into the Application(src/test/java/com/Monkey_Cap/features/TestCases.feature:6)
+]]></failure>
 </testcase>
 </testsuite>

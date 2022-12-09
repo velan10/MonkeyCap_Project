@@ -22,6 +22,7 @@ import cucumber.api.junit.Cucumber;
 				  monochrome = true, 
 				  strict = true, 
 				  dryRun = false
+				  
 )
 
 public class Runner extends Baseclass{
